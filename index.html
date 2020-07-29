@@ -1,0 +1,55 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="app.css" type="text/css" /> 
+  
+</head>
+
+
+<body>
+  <div class="container">
+  <h2>Pomodoro Clock</h2>
+   
+  <div class="well length">
+  <div id="break-label">
+    <label for="break">Break Length</label>
+       <p id="break-length"></p>
+    <button id="break-increment">+</button>
+    <button id="break-decrement">-</button>
+  </div>
+  <div id="session-label">
+     <label for="session">Session Length</label>
+      <p id="session-length"></p>
+     <button id="session-increment">+</button>
+     <button id="session-decrement">-</button>
+  </div>
+  </div>
+    
+    <div class="well border">
+      <div>
+        <p id="timer-label" class="session">Session</p>
+        <div id="time-left">
+        </div>
+      </div>
+    </div>
+    
+    <div class="well">
+       <div id="start_stop">
+         <span><i class="fa fa-play"></i><i class="fa fa-pause"></i></span>
+      </div>
+      <div id="reset"><i class="fa fa-refresh"></i></div>
+      <audio
+          id="beep"
+          preload="auto"      src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
+        />
+      
+    </div>
+    
+    </div>
+  
+</body>
+</html>
+

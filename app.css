@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#256;
+  color:white;
+  font-style:bold;
+  text-align:center;
+  font-size:30px;
+  padding:20px;
+}
+
+.length{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.border{
+  border: 4px solid #134;
+  border-radius:45px;
+  width:20%;
+  padding:10px;
+  margin:auto;
+}
+
+#start_stop{
+  margin:10px;
+}
+
+button{
+  font-size:30px;
+}
+
+
+
+
